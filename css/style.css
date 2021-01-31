@@ -35,6 +35,10 @@ p, h1, h2, h3, h4, h5, h6 {
     justify-content: center;
 }
 
+.justify-content-between {
+    justify-content: space-between;
+}
+
 .container {
     max-width: 1114px;
     padding: 0 15px;
@@ -81,7 +85,7 @@ p, h1, h2, h3, h4, h5, h6 {
 
 .inner {
     height: 100vh;
-    min-height: 960px;
+    min-height: 910px;
     background: linear-gradient(89.85deg, #23196F 0.13%, #180D5B 99.88%);
     padding-top: 106px;
 }
@@ -150,6 +154,21 @@ p, h1, h2, h3, h4, h5, h6 {
     margin-bottom: 30px;
     color: #fff;
     max-width: 365px;
+}
+
+.inner-services-lists-item {
+    width: 164px;
+    height: 164px;
+    background-color: rgba(15, 6, 76, 0.45);
+    cursor: pointer;
+}
+
+.inner-services-lists-item + .inner-services-lists-item {
+    margin-left: 10px;
+}
+
+.inner-services-lists-item:hover {
+    background-color: #fff;
 }
 
 
